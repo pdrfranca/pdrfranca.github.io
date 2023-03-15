@@ -1,18 +1,39 @@
 @charset "UTF-8";
 
+:root{
+    --color1: #00ff85;
+    --color2: #0f0f0f;
+    --color3: #222222;
+    --color4: #ffffff;
+    --color5: #000000;
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+    background-color: var(--color2);
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: var(--color1);
+    border-radius: 500px;
+}
+
 /* Reset */
 body {
-    background-color: #16191a;
+    background-color: var(--color3);    
+    overflow-x: hidden;
 }
 
 * {
+    scroll-behavior: smooth;
     margin: 0;
     padding: 0;
+    transition: 1s;
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
-    color: #ffffff;
-    font-family: century Gothic, Arial, Helvetica, sans-serif;
+    color: var(--color4);
+    font-family: century Gothic, sans-serif;
 }
 
 .container {
@@ -22,7 +43,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     font-size: 100%;
-    background-color: #16191a;
+    background-color: var(--color3);
 }
 
 .content {
@@ -30,7 +51,7 @@ body {
 }
 
 button {
-    background-color: #5c9199;
+    background-color: var(--color1);
     margin: 10px 0;
     border: none;
     padding: 10px;
@@ -40,8 +61,13 @@ button {
     cursor: pointer;
 }
 
+button a {
+    color: var(--color3);
+    font-weight: 600;
+}
+
 .point {
-    color: #5c9199;
+    color: var(--color1);
 }
 
 /* Navbar */
@@ -54,8 +80,8 @@ button {
     top: 0;
     width: 100vw;
     height: 70px;
-    background-color: #16191a;
-    backdrop-filter: blur(20px);
+    background-color: var(--color3);
+    z-index: 999;
 }
 
 #header ul {
@@ -64,14 +90,15 @@ button {
 }
 
 #header li a{
-    color: #cccccc99;
+    color: var(--color4);
+    opacity: .5;
 }
 
 /* Sobre */
 
 #main {
     height: 80vh;
-    background-color: #0f0f0f;
+    background-color: var(--color2);
 }
 
 #landing {
@@ -79,7 +106,7 @@ button {
     justify-content: space-between;
     align-items: center;
     height: 80vh;
-    background-color: #0f0f0f;
+    background-color: var(--color2);
 }
 
 #present {
@@ -99,9 +126,69 @@ button {
 #landing h2 {
     font-size: 1.4rem;
     font-weight: 100;
-    color: #cccccc;
+    color: var(--color4);
+    opacity: .5;
 }
 
 #logo img {
     width: 30vw;
+}
+
+#sobre {
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.quad {
+    width: 30vw;
+    height: 60vh;
+    background-color: var(--color2);
+    border-radius: 50px;
+    padding: 30px;
+}
+
+.quad span {
+    color: var(--color1);
+}
+
+.flex{
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+}
+
+.punt {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+}
+
+.punt:nth-child(1){
+    background-color: var(--color1);
+}
+
+.punt:nth-child(2){
+    background-color: var(--color4);
+}
+
+.punt:nth-child(3){
+    background-color: var(--color3);
+}
+
+.code {
+    font-size: 14pt;
+    margin-top: 20px;
+}
+
+.nam{
+    text-align: end;
+    width: 20vw;
+    text-transform: uppercase;
+    font-size: 40pt;
+}
+
+.color{
+    color: var(--color1);
 }
