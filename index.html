@@ -13,7 +13,7 @@
     
 </head>
 
-<body onload="loading()">
+<body onload="loading()" onscroll="">
 
   <div class="scene">
 
@@ -29,17 +29,17 @@
 
     <header id="header" class="content">
 
-        <a href="index.html" class="logog"><h1>NODR<span class="point">.</span></h1></a>
+        <a href="index.html" class="logog"><h1 class="opacity">NODR<span class="point">.</span></h1></a>
       
         <nav>
 
           <ul>
 
-            <li><a href="#sobre">Quem sou</a></li>
-            <li><a href="#">Experiência</a></li>
-            <li><a href="#">Conhecimentos</a></li>
-            <li><a href="#">Projetos</a></li>
-            <li><a href="#">Contato</a></li>
+            <li><a href="#sobre" class="opacity">Quem sou</a></li>
+            <li><a href="#experiencia" class="opacity">Experiência</a></li>
+            <li><a href="#conhecimento" class="opacity">Conhecimentos</a></li>
+            <li><a href="#trabalhos" class="opacity">Projetos</a></li>
+            <li><a href="#contato" class="opacity">Contato</a></li>
 
           </ul>
   
@@ -55,27 +55,183 @@
 
         <div id="present">
 
-          <h2>Olá, eu sou</h2>
+          <h2 class="opacity">Olá, eu sou</h2>
 
-          <h1 class="digit">Pedro França</h1>
+          <h1 class="opacity">Pedro França</h1>
 
           <noscript>Front-end developer e UX/UI designer<span class="point">.</span></noscript>
 
-          <h2>Front-end developer e UX/UI designer<span class="point">.</span></h2>
+          <ul class="dinamico">
+            <li class="digit">Front-end developer<span class="point">.</span></h2></li>
+            <li class="digit">UX designer<span class="point">.</span></li>
+            <li class="digit">UI designer<span class="point">.</span></li>
+          </ul>
 
-          <button><a href="https://">Contate-me</a></button>
+          <button><a href="https://" class="opacity">Contate-me</a></button>
 
         </div>
 
-        <div id="logo">
+        <div id="logo" class="opacity">
 
-          <img src="img/email.png" alt="">
+          <img src="img/email.png" alt="" id="animate">
       
         </div>
 
       </div>
 
     </main>
+
+    
+
+    <div id="sobre" class="content">
+        
+      <div class="nam opacity">
+
+        <h1>QUEM <span class="color"> SOU EU?</span></h1>
+
+      </div>
+    
+      <div class="quad opacity">
+
+        <div class="flex">
+
+          <div class="punt"></div>
+          <div class="punt"></div>
+          <div class="punt"></div>
+
+        </div>
+
+        <hr>
+        <br>
+
+        <code class="code">
+
+          <p><span>&lt;h1&gt;</span> Apresentação <span>&lt;/h1&gt;</span></p>
+          <p>
+            <span>&lt;p&gt;</span> Olá, eu sou Pedro França, um desenvolvedor front-end e UX/UI designer apaixonado por criar soluções digitais visualmente atraentes e altamente funcionais. Desde jovem, tive interesse em tecnologia e comecei a explorar design gráfico. Ao longo do tempo, minha paixão pela tecnologia e design se fundiram, e decidi me concentrar em desenvolver minhas habilidades em UI e UX.<span>&lt;/p&gt;</span>
+            <br>
+
+            <span>&lt;p&gt;</span>Como um desenvolvedor front-end, sou especializado em HTML, CSS e JavaScript. Meu objetivo é criar sites que funcionem perfeitamente em diferentes dispositivos e plataformas, sempre garantindo qualidade e eficiência do código para otimizar desempenho e velocidade. Como UX/UI designer, priorizo as necessidades dos usuários e crio interfaces de usuário fáceis de usar e intuitivas, trabalhando em estreita colaboração com os clientes para garantir que seus objetivos sejam alcançados.<span>&lt;/p&gt;</span>
+            <br>
+
+          </p>
+            
+        </code>
+
+      </div>
+
+    </div>
+      
+    <div id="experiencia" class="content opacity">
+
+      <h1 class="title">Experiência acadêmica<span class="point">.</span></h2>
+
+      <div class="experiencia">
+
+        <div class="box">
+
+          <h2 class="titulo 1">DJE</h2>
+
+          <h2 class="titulo 2">FETEC</h2>
+          
+          <h2 class="titulo 1">DJE</h2>
+
+          <h2 class="titulo 2">FETEC</h2>
+
+        </div>
+
+        <div class="sobr">
+
+          <div>
+
+            <h1>Finalista da competição da Unicamp</h1>
+
+            <span>15 de junho de 2022</span>
+
+          </div>
+
+          <h2>Alphanox</h2>
+
+          <p>Experiência acadêmica de finalista no Desafio da Universidade de Campinas (UNICAMP) como membro da equipe "Alphanox". Participação que aprimorou habilidades em trabalho em equipe, resolução de problemas e gestão do tempo, demonstrando comprometimento, interesse em atividades extracurriculares e capacidade de enfrentar desafios para alcançar objetivos.</p>
+          
+        </div>
+
+      </div>
+
+    </div>
+      
+    <div id="conhecimento" class="content opacity">
+
+      <div>
+
+        <div class="noflex">
+
+          <h1>Conhecimentos<span class="point">.</span></h1>
+
+          <p><span class="point">*</span>passe o mouse para ler<span class="point">*</span></p>
+
+        </div>
+
+        <div class="boxin">
+
+          <img src="img/html.png" alt="" class="conhecimento">
+          <img src="img/css.png" alt="" class="conhecimento">
+          <img src="img/js.png" alt="" class="conhecimento">
+          <img src="img/node.png" alt="" class="conhecimento">
+          <img src="img/react.png" alt="" class="conhecimento">
+          <img src="img/jquery.png" alt="" class="conhecimento">
+
+          <img src="img/canva.png" alt="" class="conhecimento">
+          <img src="img/hitfilm.png" alt="" class="conhecimento">
+          <img src="img/ae.png" alt="" class="conhecimento">
+          <img src="img/ps.png" alt="" class="conhecimento">
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div id="trabalhos" class="content opacity">
+
+      <h1 class="title">Projetos<span class="point">.</span></h1>
+
+      <div>
+
+        <img src="img/Opera Instantâneo_2023-03-18_195111_nubank.com.br.png" alt="">
+        <img src="img/Opera Instantâneo_2023-03-18_195143_www.youtube.com.png" alt="">
+        <img src="img/Opera Instantâneo_2023-03-18_195208_www.nike.com.br.png" alt="">
+
+      </div>
+
+    </div>
+    
+    <div id="contato" class="content opacity">
+
+      <div class="flex">
+        
+        <img src="img/rocket.png" alt="">
+        <h2>NODR<span class="point">.</span></h2>
+      
+      </div>
+
+      <div class="contato">
+
+        <a href="https://www.github.com/pdrfranca"><img src="img/github.png" alt="" class="redesociais"></a>
+        <a href="https://www.instagram.com/pdr.frnc"><img src="img/insta.png" alt="" class="redesociais"></a>
+        <a href="https://www.discord.io/little_house"><img src="img/disc.png" alt="" class="redesociais"></a>
+
+      </div>
+        
+    </div>
+
+    <footer class="content opacity">
+
+      <p>Copyright © 2023 <span class="point">pdrfranca.github.io</span> <span class="logo">Todos os direitos reservados.</span></p> 
+
+      <p>Powered by <span class="logo">NODR<span class="point">.</span></span></p> 
+
+    </footer>
 
     <div class="bordero">
 
@@ -140,159 +296,15 @@
 
   </div>
 
-    <div id="sobre" class="content">
-        
-      <div class="nam">
-
-        <h1>QUEM <span class="color"> SOU EU?</span></h1>
-
-      </div>
-    
-      <div class="quad">
-
-        <div class="flex">
-
-          <div class="punt"></div>
-          <div class="punt"></div>
-          <div class="punt"></div>
-
-        </div>
-
-        <hr>
-        <br>
-
-        <code class="code">
-
-          <p><span>&lt;h1&gt;</span> Apresentação <span>&lt;/h1&gt;</span></p>
-          <p>
-            <span>&lt;p&gt;</span> Olá, eu sou Pedro França, um desenvolvedor front-end e UX/UI designer apaixonado por criar soluções digitais visualmente atraentes e altamente funcionais. Desde jovem, tive interesse em tecnologia e comecei a explorar design gráfico. Ao longo do tempo, minha paixão pela tecnologia e design se fundiram, e decidi me concentrar em desenvolver minhas habilidades em UI e UX.<span>&lt;/p&gt;</span>
-            <br>
-
-            <span>&lt;p&gt;</span>Como um desenvolvedor front-end, sou especializado em HTML, CSS e JavaScript. Meu objetivo é criar sites que funcionem perfeitamente em diferentes dispositivos e plataformas, sempre garantindo qualidade e eficiência do código para otimizar desempenho e velocidade. Como UX/UI designer, priorizo as necessidades dos usuários e crio interfaces de usuário fáceis de usar e intuitivas, trabalhando em estreita colaboração com os clientes para garantir que seus objetivos sejam alcançados.<span>&lt;/p&gt;</span>
-            <br>
-
-          </p>
-            
-        </code>
-
-      </div>
-
-    </div>
-      
-    <div id="experiencia" class="content">
-
-      <h1 class="title">Experiência acadêmica<span class="point">.</span></h2>
-
-      <div class="experiencia">
-
-        <div class="box">
-
-          <h2 class="titulo 1">DJE</h2>
-
-          <h2 class="titulo 2">FETEC</h2>
-          
-          <h2 class="titulo 1">DJE</h2>
-
-          <h2 class="titulo 2">FETEC</h2>
-
-        </div>
-
-        <div class="sobr">
-
-          <div>
-
-            <h1>Finalista da competição da Unicamp</h1>
-
-            <span>15 de junho de 2022</span>
-
-          </div>
-
-          <h2>Alphanox</h2>
-
-          <p>Experiência acadêmica de finalista no Desafio da Universidade de Campinas (UNICAMP) como membro da equipe "Alphanox". Participação que aprimorou habilidades em trabalho em equipe, resolução de problemas e gestão do tempo, demonstrando comprometimento, interesse em atividades extracurriculares e capacidade de enfrentar desafios para alcançar objetivos.</p>
-          
-        </div>
-
-      </div>
-
-    </div>
-      
-    <div id="conhecimento" class="content">
-
-      <div>
-
-        <div class="noflex">
-
-          <h1>Conhecimentos<span class="point">.</span></h1>
-
-          <p><span class="point">*</span>passe o mouse para ler<span class="point">*</span></p>
-
-        </div>
-
-        <div class="boxin">
-
-          <img src="img/html.png" alt="" class="conhecimento">
-          <img src="img/css.png" alt="" class="conhecimento">
-          <img src="img/js.png" alt="" class="conhecimento">
-          <img src="img/node.png" alt="" class="conhecimento">
-          <img src="img/react.png" alt="" class="conhecimento">
-          <img src="img/jquery.png" alt="" class="conhecimento">
-
-          <img src="img/canva.png" alt="" class="conhecimento">
-          <img src="img/hitfilm.png" alt="" class="conhecimento">
-          <img src="img/ae.png" alt="" class="conhecimento">
-          <img src="img/ps.png" alt="" class="conhecimento">
-
-        </div>
-
-      </div>
-
-    </div>
-
-    <div id="trabalhos" class="content">
-
-      <h1 class="title">Projetos<span class="point">.</span></h1>
-
-      <div>
-
-        <img src="img/Opera Instantâneo_2023-03-18_195111_nubank.com.br.png" alt="">
-        <img src="img/Opera Instantâneo_2023-03-18_195143_www.youtube.com.png" alt="">
-        <img src="img/Opera Instantâneo_2023-03-18_195208_www.nike.com.br.png" alt="">
-
-      </div>
-
-    </div>
-    
-    <div id="contato" class="content">
-
-      <div class="flex">
-        
-        <img src="img/rocket.png" alt="">
-        <h2>NODR<span class="point">.</span></h2>
-      
-      </div>
-
-      <div class="contato">
-
-        <a href="https://www.github.com/pdrfranca"><img src="img/github.png" alt="" class="redesociais"></a>
-        <a href="https://www.instagram.com/pdr.frnc"><img src="img/insta.png" alt="" class="redesociais"></a>
-        <a href="https://www.discord.io/little_house"><img src="img/disc.png" alt="" class="redesociais"></a>
-
-      </div>
-        
-    </div>
-
-    <footer class="content">
-
-      <p>Copyright © 2023 <span class="point">pdrfranca.github.io</span> <span class="logo">Todos os direitos reservados.</span></p> 
-
-      <p>Powered by <span class="logo">NODR<span class="point">.</span></span></p> 
-
-    </footer>
+  <!--headline-->
+  <!--tagline-->
+  <!--punchline-->
 
   </div>
 
   <script src="script.js"></script>
   
+  <script src="https://unpkg.com/scrollreveal"></script>
+
 </body>
 </html>
