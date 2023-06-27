@@ -22,6 +22,7 @@
 body {
     background-color: var(--color3);    
     overflow-x: hidden;
+    cursor: url('img/cursor.png'), auto;
 }
 
 * {
