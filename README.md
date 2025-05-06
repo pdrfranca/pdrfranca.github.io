@@ -33,7 +33,7 @@ O site está hospedado no **GitHub Pages** (serviço de hospedagem de sites est�
     * `SobreSection.jsx`: seção “Sobre Mim” com descrição pessoal e habilidades.
     * `TecnologiasSection.jsx`: lista de tecnologias e ícones associados.
     * `HighlightedReposSection.jsx`: exibe alguns projetos destacados com filtro estrelas do github.
-    * `AllReposSection.jsx`: lista dinâmica de todos os repositórios GitHub (via API).
+    * `AllReposSection.jsx`: lista dinâmica de todos os repositórios GitHub (via API) com filtro `pdrfranca` excluso.
     * `FooterContactSection.jsx`: rodapé com informações de contato e redes sociais.
     * `ContactModal.jsx`: modal de formulário de contato.
     * `StatusModal.jsx`: modal de status ou notificações.
@@ -106,7 +106,7 @@ Informações de contato do autor (extraídas do próprio site):
 
 * **E-mail:** [pfrutopro@gmail.com](mailto:pfrutopro@gmail.com)
 * **Instagram:** [@pdr.frnc](https://instagram.com/pdr.frnc)
-* **Discord:** Shadow Inspire (convite disponível no site)
+* **Discord:** [Shadow Inspire](https://discord.gg/3R9UxRSAQ4)
 
 Caso queira sugestões de melhoria, use os canais acima para falar diretamente com o autor.
 
